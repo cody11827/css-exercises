@@ -1,1 +1,26 @@
 /* Add CSS Styling */
+
+.number1{
+    background-color: red;
+}
+
+.number2{
+    color: blue;
+    font-size: 38px;
+}
+
+.number3{
+    background-color: red;
+    font-size: x-large;
+}
+
+.number4{
+    background-color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.number5{
+    background-color: red;
+    font-size: 22px;
+}
