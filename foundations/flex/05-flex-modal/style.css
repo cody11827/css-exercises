@@ -85,9 +85,10 @@ button.cancel {
 }
 
 .close-button{
-  display: flex;
   order: 1;
 }
+
+
 
 
 .bottom {
@@ -95,6 +96,7 @@ button.cancel {
   flex-direction: column;
   flex-shrink: 2;
 }
+
 
 
 .button_container{
