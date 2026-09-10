@@ -52,25 +52,20 @@ ul {
 
 .header {
   display: flex;
-  flex-direction: row;
-
+  justify-content: space-between;
+  padding: 8px;
 }
 
-.links {
+ul {
   display: flex;
-  gap: 5px;
+  margin: 0px;
+  padding: 0px;
+  gap: 16px;
 }
 
 
-.notifications{
+.left, .right {
   display: flex;
-  flex-direction: flex-end;
   align-items: center;
-  
-}
-
-.profile-image {
-  display: flex;
-  flex-direction: flex-end;
-  align-items: center;
+  gap: 16px;
 }
