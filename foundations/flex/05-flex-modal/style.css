@@ -58,7 +58,7 @@ button {
 
 button.continue {
   background: royalblue;
-  border: 1px solid royalblue;
+  border: 1px solid rgb(75, 86, 120);
   color: white;
 }
 
@@ -72,5 +72,44 @@ button.cancel {
 
 .modal {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: row; 
+  width : 600px;
+}
+
+
+.header{
+  font-weight: bold;
+  margin: 10px 10px 10px 0px;
+  font-size: 21px;
+}
+
+.close-button{
+  display: flex;
+  order: 1;
+}
+
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 2;
+}
+
+
+.button_container{
+  display: flex;
+  gap: 8px;
+}
+
+
+button.continue, button.cancel {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+}
+
+
+button.cancel {
+  width: 80px;
 }
