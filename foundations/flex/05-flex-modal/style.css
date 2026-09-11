@@ -75,6 +75,18 @@ button.cancel {
   justify-content: center;
   flex-direction: row; 
   width : 600px;
+  padding: 20px;
+}
+
+
+.icon{
+  flex-shrink: 0;
+}
+
+.close-button{
+  order: 1;
+    flex-shrink: 0;
+
 }
 
 
@@ -84,9 +96,6 @@ button.cancel {
   font-size: 21px;
 }
 
-.close-button{
-  order: 1;
-}
 
 
 
