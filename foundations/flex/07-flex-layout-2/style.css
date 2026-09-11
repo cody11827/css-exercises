@@ -51,6 +51,9 @@ body{
 .content{
   display: flex;
   flex-direction: row;
+    justify-content: stretch;
+  flex-grow: 1;
+
 }
 
 
